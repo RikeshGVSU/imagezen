@@ -36,7 +36,8 @@ In the above example of the test file, you can see that the first work in each l
 
 # Add your own image filter/transformation/distortation function 
 
-Your own function can be added to the file "filters.py". Make sure you import all the dependencies that are not there. To use the function that you added, you can add its name to the input text file with the parameters it needs in the format defined above. 
+Your own function can be added to the file "filters.py". Make sure you import all the dependencies that are not there. 
+To use the function that you added, you can add its name to the input text file with the parameters it needs in the format defined above. 
 To add your own function in this application first you need to understand the standards of the functions used in this application. They are:
 - All the functions must exactly use 2 paramaters. (img, val)
 - The first parameter "img" is the image name that is passed to the function.
