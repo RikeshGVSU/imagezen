@@ -11,17 +11,20 @@ To run the application you need to download the source code files, edit use an i
 The user will input a text file thet is in a required format.
 The following is an example of input text file.
 
->image: sc1.jpg && sc2.png && sc3.jpg
->num_filters: all
->rotateFromCenter: 10 && 20 && 30 && 180 && 170 && 160
->translatoion: [[1,0,100],[0,1,50]]
->affine: [[50,50],[200,50],[50,200]] & [[10,100],[200,50],[100,250]]
->threshBinaryInv: 127 & 255
->adaptiveMean: 255 & 11 & 2 && 255 & 9 & 2
->adaptiveGaussian: 255 & 11 & 2
->threshOtsu: 255
->bilateriaBlur:
->cannyEdge:
+```sh
+image: sc1.jpg && sc2.png && sc3.jpg
+num_filters: all
+rotateFromCenter: 10 && 20 && 30 && 180 && 170 && 160
+translatoion: [[1,0,100],[0,1,50]]
+affine: [[50,50],[200,50],[50,200]] & [[10,100],[200,50],[100,250]]
+threshBinaryInv: 127 & 255
+adaptiveMean: 255 & 11 & 2 && 255 & 9 & 2
+adaptiveGaussian: 255 & 11 & 2
+threshOtsu: 255
+bilateriaBlur:
+cannyEdge:
+```
+
 
 In the above example of the test file, you can see that the first work in each line will be an attribute. 
 - The first line contains image names which says "image:" then the list of image names are given saparated with "&&".
