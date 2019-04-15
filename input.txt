@@ -1,0 +1,11 @@
+image: sc1.jpg && sc2.png && sc3.jpg && sc4.jpg && sc5.jpg && sc6.jpg && sc7.jpg
+num_filters: all
+rotateFromCenter: 10 && 20 && 30 && 180 && 170 && 160
+translatoion: [[1,0,100],[0,1,50]]
+affine: [[50,50],[200,50],[50,200]] & [[10,100],[200,50],[100,250]]
+threshBinaryInv: 127 & 255
+adaptiveMean: 255 & 11 & 2
+adaptiveGaussian: 255 & 11 & 2
+threshOtsu: 255
+bilateriaBlur:
+cannyEdge:

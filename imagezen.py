@@ -65,11 +65,11 @@ def recursive_call_filters(x, each_combination, d, imgName, img):
 #        print ('_______________________________')
 #        psrint (imgName)
 #        print('--------------------------------')
-        cv2.imwrite('silverCap2/' + imgName + '.png',img)
+        cv2.imwrite('outputimages/' + imgName + '.png',img)
     
 
 d = defaultdict(list)
-with open("test.txt") as fin:
+with open("input.txt") as fin:
     for line in fin:
         if ":" in line:
             k, v = line.rstrip().split(":")
