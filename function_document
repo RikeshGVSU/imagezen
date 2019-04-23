@@ -1,0 +1,88 @@
+
+1. 
+	Function: rotateFromCenter
+	Parameters:
+		image: image file with extension jpg or png
+		angle: angle to rotate 0 to 306
+
+
+2.
+	Function: translatoion
+	Parameters:
+		image: image file with extension jpg or png
+		t_matrix: 2x3 transformation matrix
+
+
+3. 
+	Function: affine
+	Parameters:
+		image: image file with extension jpg or png
+		matrix1: 3X2 matrix for three points from input image
+		matrix2: 3X2 matrix for two points from input image
+
+
+4. 
+	Function: threshBinary
+	Parameters:
+		image: image file with extension jpg or png
+		val1: threshold value which is used to classify the pixel values
+		val2: maxVal which represents the value to be given if pixel value is more than (sometimes less than) the threshold value
+
+
+5. 
+	Function: threshBinaryInv
+	Parameters:
+		image: image file with extension jpg or png
+		val1: threshold value which is used to classify the pixel values
+		val2: maxVal which represents the value to be given if pixel value is more than (sometimes less than) the threshold value
+
+
+6.
+	Function: threshTrunc
+	Parameters:
+		image: image file with extension jpg or png
+		val1: threshold value which is used to classify the pixel values
+		val2: maxVal which represents the value to be given if pixel value is more than (sometimes less than) the threshold value
+
+
+
+7.
+	Function: threshTozero
+	Parameters:
+		image: image file with extension jpg or png
+		val1: threshold value which is used to classify the pixel values
+		val2: maxVal which represents the value to be given if pixel value is more than (sometimes less than) the threshold value
+
+
+8.
+	Function: threshTozeroInv
+	Parameters:
+		image: image file with extension jpg or png
+		val1: threshold value which is used to classify the pixel values
+		val2: maxVal which represents the value to be given if pixel value is more than (sometimes less than) the threshold value
+
+
+
+9.
+	Function: adaptiveMean
+	Parameters:
+		image: image file with extension jpg or png
+		maxValue − A variable of double type representing the value that is to be given if pixel value is more than the threshold value.
+		blockSize − A variable of the integer type representing size of the pixelneighborhood used to calculate the threshold value.
+		C − A variable of double type representing the constant used in the method (subtracted from the mean or weighted mean).
+
+
+10.
+	Function: adaptiveGaussian
+	Parameters:
+		image: image file with extension jpg or png
+		maxValue − A variable of double type representing the value that is to be given if pixel value is more than the threshold value.
+		blockSize − A variable of the integer type representing size of the pixelneighborhood used to calculate the threshold value.
+		C − A variable of double type representing the constant used in the method (subtracted from the mean or weighted mean).
+
+
+11. 
+	Function: threshOtsu
+	Parameters:
+		image: image file with extension jpg or png
+		maxValue − A variable of double type representing the value that is to be given if pixel value is more than the threshold value.
